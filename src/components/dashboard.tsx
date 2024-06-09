@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 export default function Dashboard() {
   const navLinks = [
@@ -23,7 +23,7 @@ export default function Dashboard() {
   return (
     <div className="">
       <h1>Dashboard</h1>
-      <Link href={"/blog/first"}>Blog</Link>
+      <Link href={"/blog"}>Blog</Link>
       <hr />
       <Link href={"/product"}>Product</Link>
       <hr />
