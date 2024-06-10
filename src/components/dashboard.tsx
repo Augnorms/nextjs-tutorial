@@ -33,9 +33,10 @@ export default function Dashboard() {
       <button onClick={handlenavigate}>product details</button>
 
       <hr />
+      <br/>
 
       {navLinks.map((links) => {
-        const isActive = pathname.startsWith(links.href);
+        const isActive = pathname.startsWith(links.href); 
 
         return (
           <Link
